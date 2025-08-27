@@ -145,6 +145,10 @@ header {
     padding: 0;
 }
 
+.Mascota {
+    padding: 1rem;
+}
+
 .Mascota img {
     width: 45%;
     max-width: 500px;
