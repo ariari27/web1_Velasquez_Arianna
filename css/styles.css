@@ -39,7 +39,21 @@ article {
     display: flex;
     justify-content: space-between;
     padding: .1rem;
-    gap: 1rem; /* opcional, para separar texto e imagen */
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(95, 139, 69);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 14px;
 }
 
 /* ------------------ HEADER ------------------ */
@@ -138,6 +152,13 @@ header {
     display: block;
 }
 
+#Contacto {
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: center;
+}
+
 /* ------------------ SLIDER ------------------ */
 .slider {
     position: relative;
@@ -149,6 +170,7 @@ header {
     border-radius: 10px;
     justify-content: center;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 #Videos {
@@ -249,6 +271,24 @@ input[type="radio"] {
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
+}
+
+/*-------------------Contacto-----------------------*/
+.iconos-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.icono-red {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.icono-red:hover {
+    transform: scale(1.2);
 }
 
 /* ------------------ TIPOGRAFÍA ------------------ */
