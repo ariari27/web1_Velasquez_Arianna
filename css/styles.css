@@ -139,14 +139,14 @@ header {
 
 .descripcion {
     position: relative;
-    width: 60%;
+    width: 55%;
     height: auto;
     text-align: left;
     padding: 0;
 }
 
 .Mascota img {
-    width: 40%;
+    width: 45%;
     max-width: 500px;
     height: auto;
     object-fit: contain;
